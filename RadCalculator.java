@@ -20,7 +20,14 @@ public class RadCalculator {
 	}
 
 	public static double sin(double a) {
-        return a;
+		double result = a; 
+		int sign = -1;
+		for(int i = 3; i < 500; i = i + 2) {
+			result += (sign *((power(a,i)) / factorial(i)));
+			sign *= -1;
+		}
+		
+        return result;
     }
 
     public static double cos(double a) {
