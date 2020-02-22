@@ -22,6 +22,7 @@ The tan(x) function provides maximum accuracy as tests show such results in leng
 The accuracy provided by this implementation is ~1 decimal places.
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
