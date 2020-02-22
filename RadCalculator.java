@@ -41,7 +41,9 @@ public class RadCalculator {
 
     public static double tan(double a) {
 
-        return a;
+		double result = a + (power(a, 3)/3) + ((2 * power(a, 5))/15) + ((17 * power(a, 7))/315) + ((62 * power(a, 9))/2835);
+		
+        return result;
     }
 
 }
