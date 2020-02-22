@@ -11,6 +11,7 @@ class RadCalculatorTest {
 	/*
 	Test Case #1: Testing the sin(x) implementation with maximum accuracy
 	*/
+	
     @Test
     public void testsin() {
         RadCalculator testSinObject = new RadCalculator();
@@ -27,6 +28,7 @@ class RadCalculatorTest {
 	/*
 	Test Case #2: Testing the cos(x) implementation with limited accuracy
 	*/
+    
     @Test
     public void testcos() {
     	RadCalculator testCosObject = new RadCalculator();
@@ -53,6 +55,7 @@ class RadCalculatorTest {
 	/*
 	Test Case #3: Testing the tan(x) implementation with limited accuracy
 	*/
+    
     @Test
     public void testtan() {
     	RadCalculator testTanObject = new RadCalculator();
