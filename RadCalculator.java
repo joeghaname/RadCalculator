@@ -1,7 +1,6 @@
 public class RadCalculator {
 
 	// Power function used to calculate taylor series of sin(x), cos(x), and tan(x) formulas
-	
 	public static double power(double a, double b) {
 		double result = a;
 		for(int i = 1; i < b; i++) {
@@ -11,7 +10,6 @@ public class RadCalculator {
 	}
 
 	// Factorial function used to calculate taylor series of sin(x) and cos(x) formulas 
-	
 	public static double factorial(double a) {
 		double result = a;
 		for(double i = a - 1; i > 0; i--) {
@@ -21,7 +19,6 @@ public class RadCalculator {
 	}
 
     // Implementation of sin(x)
-
 	public static double sin(double a) {
 		double result = a; 
 		
@@ -36,7 +33,6 @@ public class RadCalculator {
     }
 
     // Implementation of cos(x)
-	
     public static double cos(double a) {
 		double result = 1;
 		
@@ -51,7 +47,6 @@ public class RadCalculator {
     }
 
     // Implementation of tan(x)
-
     public static double tan(double a) {
 
     	// Taylor series implementation for tan(x)
