@@ -1,5 +1,3 @@
-// import java.lang.Math;
-
 public class RadCalculator {
 
 	public static double power(double a, double b) {
@@ -31,18 +29,19 @@ public class RadCalculator {
     }
 
     public static double cos(double a) {
-        return a;
+		double result = 1; 
+		int sign = -1;
+		for(int i = 2; i < 500; i = i + 2) {
+			result += (sign *((power(a,i)) / factorial(i)));
+			sign *= -1;
+		}
+
+        return result;
     }
 
     public static double tan(double a) {
+
         return a;
     }
 
-
-
-    // For TESTING PURPOSES ONLY
-    public static void main(String[] args) {
-    	//System.out.println((factorial(5)));
-    	//System.out.println(power(2,5));
-    }
 }
