@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class RadCalculator {
 
 	// Power function used to calculate taylor series of sin(x), cos(x), and tan(x) formulas
@@ -48,11 +50,50 @@ public class RadCalculator {
 
     // Implementation of tan(x)
     public static double tan(double a) {
-
-    	// Taylor series implementation for tan(x)
-		double result = a + (power(a, 3)/3) + ((2 * power(a, 5))/15) + ((17 * power(a, 7))/315) + ((62 * power(a, 9))/2835);
-		
+    	
+    	double result = sin(a)/cos(a);
+    	
         return result;
+    }
+    
+    // Implementation of degToRad(x)
+    public static double degToRad(double a) {
+		
+    	final double pi = 3.1415926535897932;
+    	
+    	a = a * (pi/180);
+    	
+    	return a;
+    }
+    
+    // Implementation of degSin()
+    public static double degSin(double a) {
+    	
+    	double radValue = degToRad(a); 
+    	
+    	double result = sin(radValue);
+    	
+    	return result;
+    }
+    
+    // Implementation of degCos()
+    public static double degCos(double a) {
+    	
+    	double radValue = degToRad(a); 
+    	
+    	double result = cos(radValue);
+    	
+    	return result;
+    }
+    
+    // FOR TESTING PURPOSES ONLY
+    public static void main(String[] args) {
+    	//System.out.println(tan(1));
+    	//System.out.println(Math.tan(1));
+
+    	System.out.println(degSin(1));
+    	System.out.println(Math.sin(Math.toRadians(1)));
+
     }
 
 }
