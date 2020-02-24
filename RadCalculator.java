@@ -1,7 +1,7 @@
 import java.lang.Math;
 
 public class RadCalculator {
-
+	
 	// Power function used to calculate taylor series of sin(x), cos(x), and tan(x) formulas
 	public static double power(double a, double b) {
 		double result = a;

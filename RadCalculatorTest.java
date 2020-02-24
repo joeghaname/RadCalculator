@@ -6,7 +6,6 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 class RadCalculatorTest {
-
 	
 	/*
 	Test Case #1: Testing the sin(x) implementation
