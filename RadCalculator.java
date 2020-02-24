@@ -95,6 +95,5 @@ public class RadCalculator {
     	System.out.println(Math.sin(Math.toRadians(1)));
 
     }
-
     
 }
