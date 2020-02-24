@@ -217,5 +217,4 @@ class RadCalculatorTest {
         
         assertEquals(testAnswer, result); // comparing test case with real result
     }
-    
 }
