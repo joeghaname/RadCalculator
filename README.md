@@ -1,6 +1,7 @@
 ## RadCalculator
 
-Rad Calculator is a Java implementation of the sin, cos, and tan trigonometric functions as well as their degree versions, allowing input using degree and radians format.
+Rad Calculator is a Java implementation of the sin, cos, and tan trigonometric functions.
+Also, it provides input using degree and radian format, all without dependence on any Java math library.
 
 # Example Usage
 
