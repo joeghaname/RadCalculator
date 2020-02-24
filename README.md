@@ -2,12 +2,16 @@
 
 Rad Calculator is a Java implementation of the sin, cos, and tan trigonometric functions.
 
-# Usage
+# Example Usage
 
 ``` 
 sin(1) // returns the radian value of sin(1)
 cos(1) // returns the radian value of cos(1)
 tan(1) // returns the radian value of tan(1)
+
+degSin(180) // returns the radian value of sin(π)
+degCos(180) // returns the radian value of cos(π)
+degTan(180) // returns the radian value of tan(π)
 ```
 
 # Accuracy
