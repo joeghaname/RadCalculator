@@ -1,6 +1,6 @@
 ## RadCalculator
 
-Rad Calculator is a Java implementation of the sin, cos, and tan trigonometric functions.
+Rad Calculator is a Java implementation of the sin, cos, and tan trigonometric functions as well as their degree versions, allowing input using degree and radians format.
 
 # Example Usage
 
@@ -16,14 +16,23 @@ degTan(180) // returns the radian value of tan(π)
 
 # Accuracy
 
-The sin(x) function provides maximum accuracy as tests show such results in lengthy decimal number.
-The accuracy provided by this implementation is ~16 decimal places.
-
-The cos(x) function provides maximum accuracy as tests show such results in lengthy decimal number.
+The **sin(x)** function provides maximum accuracy as tests show such results in lengthy decimal number.
 The accuracy provided by this implementation is ~15 decimal places.
 
-The tan(x) function provides maximum accuracy as tests show such results in lengthy decimal number.
-The accuracy provided by this implementation is ~1 decimal places.
+The **cos(x)** function provides maximum accuracy as tests show such results in lengthy decimal number.
+The accuracy provided by this implementation is ~15 decimal places.
+
+The **tan(x)** function provides maximum accuracy as tests show such results in lengthy decimal number.
+The accuracy provided by this implementation is ~15 decimal places.
+
+The **degSin(x)** function provides maximum accuracy as tests show such results in lengthy decimal number.
+The accuracy provided by this implementation is ~15 decimal places.
+
+The **degCos(x)** function provides maximum accuracy as tests show such results in lengthy decimal number.
+The accuracy provided by this implementation is ~15 decimal places.
+
+The **degTan(x)** function provides maximum accuracy as tests show such results in lengthy decimal number.
+The accuracy provided by this implementation is ~15 decimal places.
 
 ## Contributing
 
