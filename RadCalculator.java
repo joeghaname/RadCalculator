@@ -93,5 +93,4 @@ public class RadCalculator {
     	
     	return result;
     }
-    
 }
