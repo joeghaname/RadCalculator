@@ -86,15 +86,14 @@ public class RadCalculator {
     	return result;
     }
     
-    // FOR TESTING PURPOSES ONLY
-    public static void main(String[] args) {
-    	//System.out.println(tan(1));
-    	//System.out.println(Math.tan(1));
-
-    	System.out.println(degSin(1));
-    	System.out.println(Math.sin(Math.toRadians(1)));
-
+    // Implementation of degTan()
+    public static double degTan(double a) {
+    	
+    	double radValue = degToRad(a); 
+    	
+    	double result = tan(radValue);
+    	
+    	return result;
     }
-    
     
 }

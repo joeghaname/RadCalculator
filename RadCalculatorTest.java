@@ -161,6 +161,61 @@ class RadCalculatorTest {
         
         assertEquals(testAnswer, result); // comparing test case with real result
     }
+    
+	/*
+	Test Case #8: Testing the degCos(x) implementation
+	*/
+    @Test
+    public void testDegCos() {
+        RadCalculator testCosObject = new RadCalculator();
+        
+        double a = 180; // test case for 180 degrees
+        
+        double midResult = Math.toRadians(180);
+        
+        double testAnswer = Math.cos(midResult); // real value of test case
+        
+        double result = testCosObject.degCos(a); // real result from implementation
+        
+        // Scaling accuracy to suit the test case
+        
+        BigDecimal testAnswer1 = new BigDecimal (testAnswer).setScale(15, RoundingMode.DOWN);
+		
+		testAnswer = (double) testAnswer1.doubleValue();
+		
+		BigDecimal result1 = new BigDecimal (result).setScale(15, RoundingMode.DOWN);
+		
+		result = (double) result1.doubleValue(); 
+        
+        assertEquals(testAnswer, result); // comparing test case with real result
+    }
 
+	/*
+	Test Case #9: Testing the degTan(x) implementation
+	*/
+    @Test
+    public void testDegTan() {
+        RadCalculator testTanObject = new RadCalculator();
+        
+        double a = 180; // test case for 180 degrees
+        
+        double midResult = Math.toRadians(180);
+        
+        double testAnswer = Math.tan(midResult); // real value of test case
+        
+        double result = testTanObject.degTan(a); // real result from implementation
+        
+        // Scaling accuracy to suit the test case
+        
+        BigDecimal testAnswer1 = new BigDecimal (testAnswer).setScale(15, RoundingMode.DOWN);
+		
+		testAnswer = (double) testAnswer1.doubleValue();
+		
+		BigDecimal result1 = new BigDecimal (result).setScale(15, RoundingMode.DOWN);
+		
+		result = (double) result1.doubleValue(); 
+        
+        assertEquals(testAnswer, result); // comparing test case with real result
+    }
     
 }
